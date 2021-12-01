@@ -7,8 +7,9 @@ A golang tool inspired by [lazys3](https://github.com/nahamsec/lazys3) by [Naham
 ```
 go install github.com/meispi/s3prefix@latest
 ```
-Create a directory `.config` on your root (or home) directory and copy the file `common_bucket_prefixes.txt` in that directory.
-Go to your root directory:
+Create a directory `.config` on your home directory and copy the file `common_bucket_prefixes.txt` in that directory.
+
+Go to your home directory:
 ```
 cd
 ```
@@ -37,7 +38,7 @@ And now you are good to go!
 
 ## How to use
 
-Make sure you have copied the file `common_bucket_prefixes.txt` in `.config` directory in your root (or home) directory
+Make sure you have copied the file `common_bucket_prefixes.txt` in `.config` directory in your home directory
 ```
 s3prefix <target_name>
 ```
